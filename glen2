@@ -1,0 +1,23 @@
+import java.util.*;
+public class tester
+{
+public static void main()
+{
+Scanner sc = new Scanner(System.in);
+int a;
+System.out.println("Enter a number");
+a=sc.nextInt();
+if(a>0)
+{
+System.out.println("The number you have entered is a positive number");
+}
+else if(a==0)
+{
+System.out.println("The number you have entered is zero");
+}
+else if(a<0)
+{
+System.out.println("The number you have entered is a negative number");
+}
+}
+}
